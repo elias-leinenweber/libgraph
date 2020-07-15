@@ -4,7 +4,8 @@
 
 class Edge {
 public:
-	virtual std::string	 ToString() const;
+	Edge(Vertex, Vertex);
+	virtual std::string ToString() const;
 
 	Vertex	v;
 	Vertex	w;
